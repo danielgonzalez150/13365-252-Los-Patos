@@ -1,8 +1,0 @@
-Nombre: Paul Bryan Orrego Calderon
-Programa academico: Ingenieria en sistemas
-Semestre actual: 5TO
-Algo extraño: disociar cuando las personas me hablan 
-color: azul
-Mascota: 1 Perro llamado Jeronimo
-Intereses: desarrollo apps, seguridad informatica y desarrollo web
-
