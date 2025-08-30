@@ -20,7 +20,7 @@ header {
   text-align: center;
 }
 
-/* Contenedor principal (nav + main) */
+/* Contenedor principal  */
 .container {
   flex: 1; /* Ocupa el espacio disponible entre header y footer */
   display: flex;
