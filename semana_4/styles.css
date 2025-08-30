@@ -1,0 +1,37 @@
+/* 
+Estilos por clase (Para reutilizar segun el tipo de elemento)
+.class {}  
+*/
+/* 
+Estilos por ID (Para un solo elemento)
+#id {} 
+*/
+/* 
+Estilos por etiqueta (Para elementos con una determinada etiqueta)
+etiqueta {} 
+*/
+/*
+Estilos por atributo (Para elementos con atributos comunes
+*/
+/*
+Estilos en linea (Para editar en el html inmediatamente)
+*/
+body {
+    font-family: sans-serif; /*Fuente de la letra*/
+    margin: 20px;/*Separacion entre el contenedor actual y los demas*/
+    padding: 5px;/*Separacion entre los items del contenedor*/
+}
+.container {
+    border: 2px dashed black;
+    padding: 10px;
+    margin-bottom: 30px;
+    /*display: inline; Se olvida del contenedor y lo toma todo como un texto*/
+    /*display: block; Se ocupa del ancho disponible, entonces no hace cambios*/
+    display: inline-block;
+}
+.items {
+    background: lightblue;
+    border: 1px solid blue;
+    padding: 5px;
+    margin:10px;
+}
