@@ -1,0 +1,55 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: orange;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Contenedor principal (nav + main) */
+.container {
+  flex: 1; /* Ocupa el espacio disponible entre header y footer */
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  background-color: violet;
+  flex: 0 0 30%; /* 30% fijo */
+  padding: 20px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: green;
+  flex: 0 0 70%; /* 70% fijo */
+  padding: 20px;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
